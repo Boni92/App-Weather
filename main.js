@@ -35,12 +35,14 @@ function displayResults(weather){
   // let weather_el = document.querySelector('.current .weather');
   // weather_el.innerText = weather.weather[0].main;
   
-
   let hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}ºC / ${Math.round(weather.main.temp_max)}ºC`;
   
   let viento = document.querySelector('.current .wind');
-  viento.innerText = `${weather.wind.speed} metros por segundo`;
+  viento.innerText = `${weather.wind.speed} m/s`;
+
+  let nubes = document.querySelector('.current .clouds');
+  nubes.innerText = `${weather.clouds.all} %`;
 }
 
 function dateBuilder (d){
