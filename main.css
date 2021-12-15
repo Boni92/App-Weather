@@ -253,3 +253,7 @@ main{
   display: flex;
 
 }
+
+.noche{
+  z-index: -1;
+}
