@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: fit-content;
 }
 
 body{
@@ -10,13 +13,21 @@ body{
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .noche{
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   transform: rotateZ(25deg);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .estrella{
@@ -178,11 +189,16 @@ main{
   border-radius: 10px;
   background-color: #6e6d6d73;
   box-shadow: 0 2px 5px 2px #313131;
+  width: 100%;
+  max-width: 20%;
+  min-width: 250px;
+  overflow-x: hidden;
 }
 .location{
   background-color: #dbdbdb13;
   padding: 1vw 2vh;
   border-radius: 2vh;
+  margin-bottom: 2vh;
 }
 .location .city{
   color: #fff;
@@ -198,10 +214,11 @@ main{
 }
 .current .temp{
   color: #fff;
-  font-size: 102px;
+  font-size: 100px;
   font-weight: 900;
-  margin:  30px 0;
+  margin: 2vh 0;
   text-shadow: 2px 10px rgba(0,0,0,0.6);
+  padding: 1vw 2vh;
 }
 .current .temp span{
   font-weight: 500;
@@ -219,8 +236,11 @@ main{
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-bottom: 5vw;
+  margin-bottom: 2.5vw;
   text-align: justify;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .current .container ion-icon{
   font-size: 3vh;
@@ -252,8 +272,4 @@ main{
   margin-bottom: 0px;
   display: flex;
 
-}
-
-.noche{
-  z-index: -1;
 }

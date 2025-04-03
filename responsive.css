@@ -1,0 +1,203 @@
+/* Mobile devices (320px and up) */
+@media screen and (max-width: 480px) {
+  .app-wrap {
+    padding: 10px;
+  }
+
+  header {
+    padding: 20px 15px 15px;
+  }
+
+  header input {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  main {
+    padding: 15px;
+    margin-bottom: 30vh;
+  }
+
+  .location {
+    padding: 1vw 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .location .city {
+    font-size: 24px;
+  }
+
+  .current .temp {
+    font-size: 70px;
+    margin: 2vh 0;
+    padding: 1vw 2vh;
+  }
+
+  .current .container {
+    margin-bottom: 1.25vw;
+  }
+
+  .current .container ion-icon {
+    font-size: 2.5vh;
+    margin-right: 2vw;
+  }
+
+  .current .container .hi-low,
+  .current .container .wind,
+  .current .container .clouds {
+    font-size: 18px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .app-wrap {
+    padding: 15px;
+  }
+
+  header {
+    padding: 30px 15px 15px;
+  }
+
+  header input {
+    max-width: 400px;
+    font-size: 18px;
+  }
+
+  main {
+    padding: 20px;
+    margin-bottom: 40vh;
+  }
+
+  .location {
+    padding: 1vw 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .location .city {
+    font-size: 28px;
+  }
+
+  .current .temp {
+    font-size: 84px;
+    margin: 2vh 0;
+    padding: 1vw 2vh;
+  }
+
+  .current .container {
+    margin-bottom: 1.25vw;
+  }
+
+  .current .container ion-icon {
+    font-size: 2.8vh;
+    margin-right: 2.5vw;
+  }
+
+  .current .container .hi-low,
+  .current .container .wind,
+  .current .container .clouds {
+    font-size: 20px;
+  }
+}
+
+/* Laptops (769px to 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .app-wrap {
+    padding: 20px;
+  }
+
+  header {
+    padding: 40px 15px 15px;
+  }
+
+  header input {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  main {
+    padding: 25px;
+    margin-bottom: 45vh;
+  }
+
+  .location {
+    padding: 1vw 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .location .city {
+    font-size: 32px;
+  }
+
+  .current .temp {
+    font-size: 80px;
+    margin: 2vh 0;
+    padding: 1vw 2vh;
+  }
+
+  .current .container {
+    margin-bottom: 1.25vw;
+  }
+
+  .current .container ion-icon {
+    font-size: 3vh;
+    margin-right: 3vw;
+  }
+
+  .current .container .hi-low,
+  .current .container .wind,
+  .current .container .clouds {
+    font-size: 24px;
+  }
+}
+
+/* Desktop (1025px and up) */
+@media screen and (min-width: 1025px) {
+  .app-wrap {
+    padding: 25px;
+  }
+
+  header {
+    padding: 50px 15px 15px;
+  }
+
+  header input {
+    max-width: 600px;
+    font-size: 22px;
+  }
+
+  main {
+    padding: 30px;
+    margin-bottom: 50vh;
+  }
+
+  .location {
+    padding: 1vw 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .location .city {
+    font-size: 36px;
+  }
+
+  .current .temp {
+    font-size: 80px;
+    margin: 2vh 0;
+    padding: 1vw 2vh;
+  }
+
+  .current .container {
+    margin-bottom: 1.25vw;
+  }
+
+  .current .container ion-icon {
+    font-size: 3.5vh;
+    margin-right: 3.5vw;
+  }
+
+  .current .container .hi-low,
+  .current .container .wind,
+  .current .container .clouds {
+    font-size: 28px;
+  }
+} 
